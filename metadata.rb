@@ -1,0 +1,11 @@
+name 'ogc-endpoint'
+maintainer 'UAF-GINA'
+maintainer_email 'dayne@alaska.edu'
+license 'MIT'
+description 'Installs/Configures applications needed for a GINA ogc-endpoint'
+long_description 'Application Cookbook for installs/configuring a UAF GINA OGC WMS/WFS/WCS server'
+version '0.1.0'
+
+depends 'apache2', '~> 3.1.0'
+depends 'yum-gina'
+depends 'yum-epel'
